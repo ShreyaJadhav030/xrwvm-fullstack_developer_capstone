@@ -1,0 +1,65 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Us</title>
+  
+  <!-- Link the style sheets -->
+  <link rel="stylesheet" href="/static/style.css">
+  <link rel="stylesheet" href="/static/bootstrap.min.css">
+</head>
+<body>
+
+<div>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: darkturquoise; height: 1in;">
+    <div class="container-fluid">
+      <h2 style="padding-right: 5%;">Dealerships</h2>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: larger;" aria-current="page" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: larger;" href="/about">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" style="font-size: larger;" href="/contact">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Contact Us Content -->
+  <div class="card" style="width: 80%; margin: auto; margin-top: 5%;">
+    <div class="banner" name="contact-header">
+      <h1>Contact Us</h1>
+      <p>If you have any questions or inquiries, feel free to reach out to us using the information below.</p>
+    </div>
+
+    <div style="display: flex; flex-direction: row; justify-content: space-between; padding: 20px;">
+      <!-- Contact Details -->
+      <div style="width: 50%;">
+        <h3>Our Contact Information</h3>
+        <p><strong>Email:</strong> support@bestcars.com</p>
+        <p><strong>Phone:</strong> +1 (800) 123-4567</p>
+        <p><strong>Address:</strong> 1234 Auto Blvd, Motor City, USA</p>
+        <p><strong>Working Hours:</strong> Mon - Fri: 9:00 AM - 6:00 PM</p>
+      </div>
+
+      <!-- Image -->
+      <div>
+        <img src="https://tse3.mm.bing.net/th/id/OIP.TiWSC8EfKtNHZ92qLpeiEQHaH3?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Contact Us" style="width: 400px; height: auto; border-radius: 10px;">
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
